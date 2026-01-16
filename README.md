@@ -1,5 +1,12 @@
 # Semester Project
-This project contains the code for my Computer Vision semester project. My partner and I were tasked with developing various methods of solving jigsaw puzzles. My partner developed an algorithmic method leveraging ORBS to solve jigsaw puzzles, and I developed an AI-based approach. This repo contains the code for my approach (see "Jigsaw_as_Pretext/Jigsaw_pretext.ipynb"). I forked an existing [repo](https://github.com/anilsathyan7/Jigsaw-Net). I expanded the jigsaw training to be compatible with any rotation of the given input. The model now predicts both the rotation of the given input and the position of each individual tile with high accuracy.
+This project contains the code for my Computer Vision semester project. My partner and I were tasked with developing various methods of solving jigsaw puzzles. My partner developed an algorithmic method leveraging ORBS to solve jigsaw puzzles, and I developed an AI-based approach. This repo contains the code for my approach (see "Jigsaw_as_Pretext/Jigsaw_pretext.ipynb"). I forked an existing [repo](https://github.com/anilsathyan7/Jigsaw-Net). I expanded the jigsaw training to be compatible with any rotation of the given input. As a result of my efforts, the model now predicts both the rotation of the given input and the position of each individual tile with high accuracy.
+
+## Results of Semester Project
+<img src = "images/examples.png" alt = "examples" /> 
+
+The following plots show the accuracy and loss of the model during training for each epoch
+<img src = "images/accuracy.png" alt = "accuracy" /> 
+<img src = "images/loss.png" alt = "loss" /> 
 
 
 # Contextual Information
