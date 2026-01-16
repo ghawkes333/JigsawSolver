@@ -1,5 +1,9 @@
-# Self Supervised Learning for Fine grained Image Classification
+# Semester Project
+This project contains the code for my Computer Vision semester project. My partner and I were tasked with developing various methods of solving jigsaw puzzles. My partner developed an algorithmic method leveraging ORBS to solve jigsaw puzzles, and I developed an AI-based approach. This repo contains the code for my approach (see "Jigsaw_as_Pretext/Jigsaw_pretext.ipynb"). I forked an existing [repo](https://github.com/anilsathyan7/Jigsaw-Net). I expanded the jigsaw training to be compatible with any rotation of the given input. The model now predicts both the rotation of the given input and the position of each individual tile with high accuracy.
 
+
+# Contextual Information
+This is from the existing repo
 As part of our project we have worked on using self supervised learning for fine grained classification of cassava leaves diseases. We've explored 3 different methods for applying self supervised learning - 
 - [SRGAN](https://github.com/rush2406/Self-Supervised-Learning-for-Fine-grained-Image-Classification/tree/master/SRGAN)
 - [Jigsaw as pretext task](https://github.com/rush2406/Self-Supervised-Learning-for-Fine-grained-Image-Classification/tree/master/Jigsaw_as_Pretext_task)
